@@ -1,0 +1,39 @@
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+    background-image:url('https://cdn.wallpapersafari.com/22/80/WMc3xz.jpg');
+    height:100%;
+}
+.btn{
+   width:150px;
+   height:50px;
+   color:burlywood;
+   background-color: black;
+   border:2px solid burlywood;
+   font-size:20px;
+   cursor:pointer;
+   border-radius:4px;
+   text-shadow: 2px 2px 2px burlywood;
+}
+section{
+    height:100%;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    
+    
+}
+html{
+    height:100%
+}
+
+.btn:hover{
+    color:cyan;
+    border:2px solid cyan;
+    box-shadow:3px 5px 0px 2px rgba(21, 176, 142, 0.493);
+    
+    transform:translateY(-10px);
+    
+
+}
